@@ -1,0 +1,56 @@
+# Environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+btc_bot.log
+btc_bot_error.log
+*.log.*
+
+# Lock files
+*.lock
+/tmp/*.lock
+
+# Backup files
+*.bak
+*.backup
+*.bak2
+*.backup_*
+*.backup_working
+*.backup_stable
+*.backup_gate
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+signal_history.json
+institutional_addresses.json
+
+# Temporary files
+*.tmp
+temp_*
+*.pid
